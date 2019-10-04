@@ -19,40 +19,40 @@ TODO:
 * The Search api haven't been implemented yet.
 
 ## Front-end:
-This UI was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+1. You will need to install Node.js 12.11+ on your machine.
 
-1. Install npm on the frontend directory by typing:
+2. Install npm on the frontend directory by typing:
 
 ```
 $ cd frontend
 $ npm install
 ```
 
-2. install npx by typing:
+3. install npx by typing:
 
 ```
 $ npm install -g npx
 ```
 
-3. install Ant Design of React:
+4. install Ant Design of React:
 
 ```
 $ npm install antd
 ```
 
-4. install node-sass:
+5. install node-sass:
 
 ```
 $ npm install node-sass
 ```
 
-5. install axios module:
+6. install axios module:
 
 ```
 $ npm install axios
 ```
 
-6. To run the React app in the development mode:
+7. To run the React app in the development mode:
 
 ```
 $ npm start
@@ -62,6 +62,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 You will also see any errors in the console.
 
-Notes:
+8. Testing:
+
+```
+$ npm test
+```
+
+Launches the test runner in the interactive watch mode. Every time you save a file, it will re-run the tests.
+By default, when you run 'npm test', Jest will only run the tests related to files changed since the last commit. 
+
+TODO:
 * The UI is now only able to load partially, missing the dynamic data rendering, due to APIs calling failed.
 * All the button clicks are not working yet.
