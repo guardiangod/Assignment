@@ -1,0 +1,23 @@
+Accept CarLot1
+Accept MotorcycleLot1
+Accept CarLot2
+Accept CarLot3
+Accept CarLot4
+Accept MotorcycleLot2
+Accept CarLot5
+Accept CarLot6
+Accept MotorcycleLot3
+Accept CarLot7
+Accept MotorcycleLot4
+Reject
+CarLot2 8
+Accept CarLot2
+Accept MotorcycleLot5
+CarLot4 8
+Reject
+MotorcycleLot1 6
+Accept CarLot4
+Accept MotorcycleLot1
+Reject
+MotorcycleLot3 5
+CarLot1 16
